@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MaterialCard"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "iOS Material Design Card View."
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ DESC
     'MaterialCard' => ['Pod/Assets/*.png']
   }
 
-  s.frameworks = 'UIKit'
+  #s.frameworks = 'UIKit'
 end

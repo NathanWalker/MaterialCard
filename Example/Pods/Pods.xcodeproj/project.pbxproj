@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0770E952CBA52876291C5C255EAEDC0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		10CB6827C26632F536AEAE6380EA4AC5 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0833DB50682EE3D5E2037E7133DFE7 /* MaterialCard.swift */; };
 		12B5062CEA721BE70B639FBD24235EC2 /* Pods-MaterialCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C416D06EC442514BA592E95EBB65ED80 /* Pods-MaterialCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		211B61F3FE1D616B6868E4DA8CB23B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		398F699EB042C041321EB74EA4885FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		4B547A38E8E593BF6C39777D9B1C81D6 /* MaterialCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7A228E32A2E3F75B4B3E0AC41DCD027 /* MaterialCard.bundle */; };
+		211B61F3FE1D616B6868E4DA8CB23B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2A77492483BA46DB5F5464F4D0B79BDC /* MaterialCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BECF423B5AB022A13469FD3936A650F1 /* MaterialCard-dummy.m */; };
+		398F699EB042C041321EB74EA4885FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		770860471B954832FF148EFBF42EEA56 /* Pods-MaterialCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA332EF3FB437A5DF2890FDB68542870 /* Pods-MaterialCard_Tests-dummy.m */; };
-		8D3FA5D635DBB42968DF119B3928031C /* MaterialCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 379039A42A6B68A64347604BCA8559C1 /* MaterialCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		792002202759844318779EA0CACA3589 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0833DB50682EE3D5E2037E7133DFE7 /* MaterialCard.swift */; };
+		7F40D5C9B921F5E56A8337F251C6DFCC /* MaterialCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7A228E32A2E3F75B4B3E0AC41DCD027 /* MaterialCard.bundle */; };
 		B1B14AFA60668476E248F474AB0B2EC8 /* Pods-MaterialCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D03D5333B5E93B7B1FA63E1E1BEDE0 /* Pods-MaterialCard_Example-dummy.m */; };
+		C3FE83E4AEEF1D45C296F062BF68E5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		CF1A2BF76E04961D2B8A1431ED30635B /* Pods-MaterialCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACDB82491F536844EE21CA8813A8049 /* Pods-MaterialCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D01AC2EE66459B1C01F7814CBAA0254B /* MaterialCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BECF423B5AB022A13469FD3936A650F1 /* MaterialCard-dummy.m */; };
-		E0545524F19949675D0E6E184FA2A91B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		E036FEFC1AE5876D38DF32459EABECA6 /* MaterialCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 379039A42A6B68A64347604BCA8559C1 /* MaterialCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,21 +25,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CDB55D2BF2BB86C4DCC1FFEC64444DD;
+			remoteGlobalIDString = 848CDBB488F67E9FD09EA33F6CE5CED7;
 			remoteInfo = MaterialCard;
 		};
 		3A25E95C051EF366F30A24220415D4D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CDB55D2BF2BB86C4DCC1FFEC64444DD;
+			remoteGlobalIDString = 848CDBB488F67E9FD09EA33F6CE5CED7;
 			remoteInfo = MaterialCard;
 		};
-		8AF8438486ADB4B63F9D45BC345AA606 /* PBXContainerItemProxy */ = {
+		D850D8EE6DDD3D5065AA4BC55A3E1F42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEF4EE8D7673A4C8A74B54CEF14FA5A5;
+			remoteGlobalIDString = 1B9D6E0AFE2412ACB2F85E9108998C72;
 			remoteInfo = "MaterialCard-MaterialCard";
 		};
 /* End PBXContainerItemProxy section */
@@ -53,6 +52,7 @@
 		381E0A7D3475C50DFC16E92808F4134E /* Pods-MaterialCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialCard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		382424D796D106935A8CE788A467C575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ACDB82491F536844EE21CA8813A8049 /* Pods-MaterialCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialCard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5142A207B2E6F7F83BDBFAA301A7F70D /* Pods-MaterialCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		570531F07649E2D38EEB9867E50EC42A /* MaterialCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialCard-prefix.pch"; sourceTree = "<group>"; };
 		57CF22819909AB6F2A476A5DBB4BF910 /* Pods-MaterialCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MaterialCard_Tests.modulemap"; sourceTree = "<group>"; };
@@ -61,7 +61,6 @@
 		5A136C715CF2B354D2E7768AA5AA1116 /* Pods_MaterialCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AC4D5E1CE7F2E5AE9FDDE0913EE4AD /* Pods-MaterialCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		697DA198AF454FE207B6A7D37096B5A0 /* Pods-MaterialCard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialCard_Tests-resources.sh"; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		91D03D5333B5E93B7B1FA63E1E1BEDE0 /* Pods-MaterialCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialCard_Example-dummy.m"; sourceTree = "<group>"; };
 		9502881817182604671652B649EDB75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9F6507981D3049D01A29CE73A36BDC /* Pods-MaterialCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +68,6 @@
 		B21321E46F894DE51F995A3CF4AD8A37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BECF423B5AB022A13469FD3936A650F1 /* MaterialCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialCard-dummy.m"; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C416D06EC442514BA592E95EBB65ED80 /* Pods-MaterialCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialCard_Example-umbrella.h"; sourceTree = "<group>"; };
 		CE0833DB50682EE3D5E2037E7133DFE7 /* MaterialCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
 		CE2C5392465AB09080404EC4305D8A57 /* Pods-MaterialCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MaterialCard_Example.modulemap"; sourceTree = "<group>"; };
@@ -83,10 +81,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A95B9D34C75F2E597C9D8F75D7EC65E /* Frameworks */ = {
+		5BA389397F7F34A241B43011A882955C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FE83E4AEEF1D45C296F062BF68E5AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +97,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		944C7F5491DD8A0A449986117B1F5E2A /* Frameworks */ = {
+		943F1621632310521E0484A0C00D5135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0770E952CBA52876291C5C255EAEDC0C /* Foundation.framework in Frameworks */,
-				E0545524F19949675D0E6E184FA2A91B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,15 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		2D1F027E7810714CF93A40D27FE3A30B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,14 +137,6 @@
 				C4511EA8EF149362C60F8E8A288D5464 /* MaterialCard */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		76BB781B8DD03FB4DF272A66BFB0EBA5 /* Targets Support Files */ = {
@@ -187,7 +167,7 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				41A861F62B331DA2D7BBB8A7751C62C1 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				84860177B0959873B931D72B0AA487EB /* Products */,
 				76BB781B8DD03FB4DF272A66BFB0EBA5 /* Targets Support Files */,
 			);
@@ -202,6 +182,22 @@
 				E8B9A44417AD76EC1F247835BF0E933A /* Pods_MaterialCard_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C4511EA8EF149362C60F8E8A288D5464 /* MaterialCard */ = {
@@ -261,11 +257,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		437D90F4289B17D51D03927B0F8D638C /* Headers */ = {
+		396B213639681443D24BE6AEE2A5DD84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3FA5D635DBB42968DF119B3928031C /* MaterialCard-umbrella.h in Headers */,
+				E036FEFC1AE5876D38DF32459EABECA6 /* MaterialCard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,24 +276,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1CDB55D2BF2BB86C4DCC1FFEC64444DD /* MaterialCard */ = {
+		1B9D6E0AFE2412ACB2F85E9108998C72 /* MaterialCard-MaterialCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE551EBCDCA029530A155E79DCF56BF /* Build configuration list for PBXNativeTarget "MaterialCard" */;
+			buildConfigurationList = E99981FF1A454E487FB981C8335384FE /* Build configuration list for PBXNativeTarget "MaterialCard-MaterialCard" */;
 			buildPhases = (
-				6265F314F6B55A02E39FCD61910784D9 /* Sources */,
-				944C7F5491DD8A0A449986117B1F5E2A /* Frameworks */,
-				1396085A5EF8DA2EE1B6FDBD4011D76E /* Resources */,
-				437D90F4289B17D51D03927B0F8D638C /* Headers */,
+				26761587C6E232097A40DE014BFDC328 /* Sources */,
+				943F1621632310521E0484A0C00D5135 /* Frameworks */,
+				49D4F20D91D3890DD221AD1BF8A8E5C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC0005A6F142AEFE91B90294C706BBCD /* PBXTargetDependency */,
 			);
-			name = MaterialCard;
-			productName = MaterialCard;
-			productReference = D8117E065A49728C4308B2D4AC167CBC /* MaterialCard.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "MaterialCard-MaterialCard";
+			productName = "MaterialCard-MaterialCard";
+			productReference = F7A228E32A2E3F75B4B3E0AC41DCD027 /* MaterialCard.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		697BF03D4A63F06C5DD3371F1EEF9554 /* Pods-MaterialCard_Example */ = {
 			isa = PBXNativeTarget;
@@ -317,6 +311,25 @@
 			productReference = 5A136C715CF2B354D2E7768AA5AA1116 /* Pods_MaterialCard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		848CDBB488F67E9FD09EA33F6CE5CED7 /* MaterialCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C295F07BFDB78302373AFB6154245A57 /* Build configuration list for PBXNativeTarget "MaterialCard" */;
+			buildPhases = (
+				28188181B5BD4D81A58A020B2A030417 /* Sources */,
+				5BA389397F7F34A241B43011A882955C /* Frameworks */,
+				F1331A01B02DAB9AB8266CDD45774D53 /* Resources */,
+				396B213639681443D24BE6AEE2A5DD84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4750E5C91B781589E560662C3B31D712 /* PBXTargetDependency */,
+			);
+			name = MaterialCard;
+			productName = MaterialCard;
+			productReference = D8117E065A49728C4308B2D4AC167CBC /* MaterialCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B202BB6A090DBF0E7FE57D85CC7BD85E /* Pods-MaterialCard_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A2BFA10A19690DF269D185E0D216AEC /* Build configuration list for PBXNativeTarget "Pods-MaterialCard_Tests" */;
@@ -334,23 +347,6 @@
 			productName = "Pods-MaterialCard_Tests";
 			productReference = E8B9A44417AD76EC1F247835BF0E933A /* Pods_MaterialCard_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		DEF4EE8D7673A4C8A74B54CEF14FA5A5 /* MaterialCard-MaterialCard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3069AB9F0A062E1F5633DBA0B62B0EA6 /* Build configuration list for PBXNativeTarget "MaterialCard-MaterialCard" */;
-			buildPhases = (
-				32F783017754FC2C8D3FA81327D4E728 /* Sources */,
-				6A95B9D34C75F2E597C9D8F75D7EC65E /* Frameworks */,
-				08A26C989E6CB6F66B07438903D3AE59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MaterialCard-MaterialCard";
-			productName = "MaterialCard-MaterialCard";
-			productReference = F7A228E32A2E3F75B4B3E0AC41DCD027 /* MaterialCard.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -373,8 +369,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CDB55D2BF2BB86C4DCC1FFEC64444DD /* MaterialCard */,
-				DEF4EE8D7673A4C8A74B54CEF14FA5A5 /* MaterialCard-MaterialCard */,
+				848CDBB488F67E9FD09EA33F6CE5CED7 /* MaterialCard */,
+				1B9D6E0AFE2412ACB2F85E9108998C72 /* MaterialCard-MaterialCard */,
 				697BF03D4A63F06C5DD3371F1EEF9554 /* Pods-MaterialCard_Example */,
 				B202BB6A090DBF0E7FE57D85CC7BD85E /* Pods-MaterialCard_Tests */,
 			);
@@ -382,18 +378,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		08A26C989E6CB6F66B07438903D3AE59 /* Resources */ = {
+		49D4F20D91D3890DD221AD1BF8A8E5C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1396085A5EF8DA2EE1B6FDBD4011D76E /* Resources */ = {
+		F1331A01B02DAB9AB8266CDD45774D53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B547A38E8E593BF6C39777D9B1C81D6 /* MaterialCard.bundle in Resources */,
+				7F40D5C9B921F5E56A8337F251C6DFCC /* MaterialCard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,19 +404,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32F783017754FC2C8D3FA81327D4E728 /* Sources */ = {
+		26761587C6E232097A40DE014BFDC328 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6265F314F6B55A02E39FCD61910784D9 /* Sources */ = {
+		28188181B5BD4D81A58A020B2A030417 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D01AC2EE66459B1C01F7814CBAA0254B /* MaterialCard-dummy.m in Sources */,
-				10CB6827C26632F536AEAE6380EA4AC5 /* MaterialCard.swift in Sources */,
+				2A77492483BA46DB5F5464F4D0B79BDC /* MaterialCard-dummy.m in Sources */,
+				792002202759844318779EA0CACA3589 /* MaterialCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,39 +431,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4750E5C91B781589E560662C3B31D712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MaterialCard-MaterialCard";
+			target = 1B9D6E0AFE2412ACB2F85E9108998C72 /* MaterialCard-MaterialCard */;
+			targetProxy = D850D8EE6DDD3D5065AA4BC55A3E1F42 /* PBXContainerItemProxy */;
+		};
 		B51F96CFE8BEFB27729BE6A78A40558D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MaterialCard;
-			target = 1CDB55D2BF2BB86C4DCC1FFEC64444DD /* MaterialCard */;
+			target = 848CDBB488F67E9FD09EA33F6CE5CED7 /* MaterialCard */;
 			targetProxy = 30F730F25C54A335828804231C962C57 /* PBXContainerItemProxy */;
-		};
-		CC0005A6F142AEFE91B90294C706BBCD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MaterialCard-MaterialCard";
-			target = DEF4EE8D7673A4C8A74B54CEF14FA5A5 /* MaterialCard-MaterialCard */;
-			targetProxy = 8AF8438486ADB4B63F9D45BC345AA606 /* PBXContainerItemProxy */;
 		};
 		E1C86ED0ADEAB93DF183EFE861926D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MaterialCard;
-			target = 1CDB55D2BF2BB86C4DCC1FFEC64444DD /* MaterialCard */;
+			target = 848CDBB488F67E9FD09EA33F6CE5CED7 /* MaterialCard */;
 			targetProxy = 3A25E95C051EF366F30A24220415D4D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C2BD281E118768860C20A9528AF0F6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MaterialCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -572,6 +556,69 @@
 			};
 			name = Debug;
 		};
+		5557F7F69191E46965D89AFAF5BBF5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialCard/MaterialCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialCard/MaterialCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MaterialCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FBF7437B85FF00DBB485801ABB534AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialCard/MaterialCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialCard/MaterialCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MaterialCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		65C39A06A20001A89D6E2DCEF8CA3322 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60AC4D5E1CE7F2E5AE9FDDE0913EE4AD /* Pods-MaterialCard_Example.debug.xcconfig */;
@@ -633,35 +680,7 @@
 			};
 			name = Release;
 		};
-		7153C2A115068DE81EB98C6D22FEF94E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MaterialCard/MaterialCard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MaterialCard/MaterialCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MaterialCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		826602BDEF625E1E8B6712AB9613CB6C /* Debug */ = {
+		786B97A2B709D1BF0FE0BB6FA782FF38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
 			buildSettings = {
@@ -672,33 +691,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
-		};
-		97E1FC68EB486B3155BCE4E74966A486 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MaterialCard/MaterialCard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MaterialCard/MaterialCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MaterialCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A0A6E330BD3F197D191A152F7040DCAA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -730,6 +722,18 @@
 			};
 			name = Release;
 		};
+		B0B2EA04EF5F5B55022DD095624651DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B000031D8A088F5E6184EAFC1E0E4CB4 /* MaterialCard.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MaterialCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -738,15 +742,6 @@
 			buildConfigurations = (
 				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
 				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3069AB9F0A062E1F5633DBA0B62B0EA6 /* Build configuration list for PBXNativeTarget "MaterialCard-MaterialCard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				826602BDEF625E1E8B6712AB9613CB6C /* Debug */,
-				0C2BD281E118768860C20A9528AF0F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -769,11 +764,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE551EBCDCA029530A155E79DCF56BF /* Build configuration list for PBXNativeTarget "MaterialCard" */ = {
+		C295F07BFDB78302373AFB6154245A57 /* Build configuration list for PBXNativeTarget "MaterialCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7153C2A115068DE81EB98C6D22FEF94E /* Debug */,
-				97E1FC68EB486B3155BCE4E74966A486 /* Release */,
+				5FBF7437B85FF00DBB485801ABB534AA /* Debug */,
+				5557F7F69191E46965D89AFAF5BBF5F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99981FF1A454E487FB981C8335384FE /* Build configuration list for PBXNativeTarget "MaterialCard-MaterialCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786B97A2B709D1BF0FE0BB6FA782FF38 /* Debug */,
+				B0B2EA04EF5F5B55022DD095624651DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
