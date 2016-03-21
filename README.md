@@ -41,8 +41,9 @@ self.view.addSubview(card)
 ```
 
 
-## Author
+## Authors
 
+Andrew Clissold, andrewclissold@gmail.com
 Nathan Walker, walkerrunpdx@gmail.com
 
 ## License
