@@ -1,0 +1,6 @@
+framework module MaterialCard {
+  umbrella header "MaterialCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

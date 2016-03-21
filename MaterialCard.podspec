@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "MaterialCard"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MaterialCard."
+  s.version          = "1.0.0"
+  s.summary          = "iOS Material Design Card View."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-                       DESC
+An iOS CocoaPod that provides a MaterialCard class for creating Card Views based on the Material Design spec.
+```swift
+let card = MaterialCard(frame: CGRectMake(10, UIApplication.sharedApplication().statusBarFrame.size.height + 10, UIApplication.sharedApplication().statusBarFrame.size.width - 20, 100))
+view.addSubview(card)
+```
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MaterialCard"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+DESC
+
+  s.homepage         = "https://github.com/NathanWalker/MaterialCard"
   s.license          = 'MIT'
   s.author           = { "Nathan Walker" => "walkerrunpdx@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MaterialCard.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/NathanWalker/MaterialCard.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/wwwalkerrun'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -34,7 +39,5 @@ Pod::Spec.new do |s|
     'MaterialCard' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
