@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MaterialCard_Example' do
+  pod 'MaterialCard', :path => '../'
+
+  target 'MaterialCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
