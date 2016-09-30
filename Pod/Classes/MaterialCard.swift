@@ -8,25 +8,25 @@
 
 import UIKit
 
-public class MaterialCard: UIView {
+open class MaterialCard: UIView {
     
-    public var cornerRadius: CGFloat = 2
+    open var cornerRadius: CGFloat = 2;
     
-    public var shadowOffsetWidth: Int = 0
-    public var shadowOffsetHeight: Int = 2
-    public var shadowColor: UIColor? = UIColor.blackColor()
-    public var shadowOpacity: Float = 0.4
+    open var shadowOffsetWidth: Int = 0;
+    open var shadowOffsetHeight: Int = 2;
+    open var shadowColor: UIColor? = UIColor.black;
+    open var shadowOpacity: Float = 0.4;
     
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         
-        layer.cornerRadius = cornerRadius
-        let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
+        layer.cornerRadius = cornerRadius;
+        let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius);
         
-        layer.masksToBounds = false
-        layer.shadowColor = shadowColor?.CGColor
+        layer.masksToBounds = false;
+        layer.shadowColor = shadowColor?.cgColor;
         layer.shadowOffset = CGSize(width: shadowOffsetWidth, height: shadowOffsetHeight);
-        layer.shadowOpacity = shadowOpacity
-        layer.shadowPath = shadowPath.CGPath
+        layer.shadowOpacity = shadowOpacity;
+        layer.shadowPath = shadowPath.cgPath;
     }
     
 }

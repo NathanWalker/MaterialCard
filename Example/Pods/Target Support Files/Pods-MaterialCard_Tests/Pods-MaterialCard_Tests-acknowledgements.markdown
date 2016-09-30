@@ -3,6 +3,7 @@ This application makes use of the following third party libraries:
 
 ## MaterialCard
 
+Copyright (c) 2014 Andrew Clissold
 Copyright (c) 2016 Nathan Walker <walkerrunpdx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

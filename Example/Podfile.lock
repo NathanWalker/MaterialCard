@@ -1,5 +1,5 @@
 PODS:
-  - MaterialCard (1.0.1)
+  - MaterialCard (1.1.0)
 
 DEPENDENCIES:
   - MaterialCard (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MaterialCard: 09991b39769116e8b5225d2fe7e52ce9ba8df05a
+  MaterialCard: 6a097d6959db4f1ec590a579de0391cefa7647de
 
 COCOAPODS: 0.39.0
