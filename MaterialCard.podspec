@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaterialCard'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'iOS Material Design Card View.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ view.addSubview(card)
   s.source           = { :git => 'https://github.com/NathanWalker/MaterialCard.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/wwwalkerrun'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
   s.source_files = 'MaterialCard/Classes/**/*'
