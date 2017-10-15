@@ -26,8 +26,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```
 let card = MaterialCard(frame: CGRect(x: 10, y: UIApplication.shared.statusBarFrame.size.height + 10, width: UIApplication.shared.statusBarFrame.size.width - 20, height: 100))
 
-let label = UILabel(frame: CGRect(x: 0, y: 37, width: c.frame.size.width, height: 21))
-label.textAlignment = NSTextAlignment.Center
+let label = UILabel(frame: CGRect(x: 0, y: 37, width: card.frame.size.width, height: 21))
+label.textAlignment = NSTextAlignment.center
 label.text = "MaterialCard Demo"
 
 card.backgroundColor = UIColor.white
