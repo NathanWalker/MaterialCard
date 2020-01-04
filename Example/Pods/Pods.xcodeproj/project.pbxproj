@@ -11,6 +11,8 @@
 		3D98B79F7094891480E7DD1BA9B79981 /* Pods-MaterialCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACDB82491F536844EE21CA8813A8049 /* Pods-MaterialCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4892D46F8C9E38CCE8CC4D954BEF1F98 /* Pods-MaterialCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C416D06EC442514BA592E95EBB65ED80 /* Pods-MaterialCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B26723071B172A2230924141080FE96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		767357D723C0E442006DBC68 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505F1D82216E5D57511CC06AAAA376B /* MaterialCard.swift */; };
+		767357D823C0E442006DBC68 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505F1D82216E5D57511CC06AAAA376B /* MaterialCard.swift */; };
 		79F9E467721C8FFE82E4560F8F81986C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		8891BB5B955BEB5E39C6F4EF45CA28BA /* MaterialCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B74469F62ACD80BE8711E59FD3B5948D /* MaterialCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88BC4C4AF216C22A3570CDB947FEAAFB /* Pods-MaterialCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA332EF3FB437A5DF2890FDB68542870 /* Pods-MaterialCard_Tests-dummy.m */; };
@@ -326,6 +328,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -345,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767357D823C0E442006DBC68 /* MaterialCard.swift in Sources */,
 				88BC4C4AF216C22A3570CDB947FEAAFB /* Pods-MaterialCard_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767357D723C0E442006DBC68 /* MaterialCard.swift in Sources */,
 				24FE3FDEA132BB10F248A816972B4E49 /* Pods-MaterialCard_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +407,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -442,6 +447,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -475,7 +481,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -538,7 +544,7 @@
 				PRODUCT_NAME = MaterialCard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -572,7 +578,7 @@
 				PRODUCT_NAME = Pods_MaterialCard_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -650,6 +656,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
